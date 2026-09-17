@@ -1,0 +1,18 @@
+{
+  "roster": ["Nova", "Pulse", "Echo", "Orbit", "Prism", "Vega", "Flux"],
+  "bands": [["20:00", "21:00", 1], ["21:00", "22:00", 2], ["22:00", "23:00", 4], ["23:00", "00:00", 5], ["00:00", "01:00", 5], ["01:00", "02:00", 3]],
+  "past_events": [
+    {"id": "DEMO-01", "name": "Neon Sessions", "date": "2026-01-10", "order": ["Nova", "Pulse", "Echo", "Orbit", "Prism", "Vega"]},
+    {"id": "DEMO-02", "name": "Midnight Circuit", "date": "2026-01-17", "order": ["Orbit", "Prism", "Vega", "Nova", "Pulse", "Echo"]}
+  ],
+  "event": {"name": "Electric Horizon", "date": "2026-01-24", "start": "20:00", "end": "02:00"},
+  "constraints": {
+    "Nova": {"present": true, "min": "21:00", "max": ""},
+    "Pulse": {"present": true, "min": "", "max": "00:00"},
+    "Echo": {"present": true, "min": "", "max": ""},
+    "Orbit": {"present": true, "min": "", "max": ""},
+    "Prism": {"present": true, "min": "22:00", "max": ""},
+    "Vega": {"present": true, "min": "", "max": ""},
+    "Flux": {"present": false, "min": "", "max": ""}
+  }
+}
